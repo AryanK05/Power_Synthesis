@@ -1,0 +1,85 @@
+source -s abc.rc
+read_aiger i2c.aig
+print_stats -p
+resub -z
+resub -z
+resub
+balance
+resub -z
+refactor -z
+balance
+refactor -z
+rewrite -z
+resub -z
+refactor
+resub
+rewrite -z
+refactor
+refactor -z
+rewrite -z
+rewrite
+resub
+rewrite
+refactor
+balance
+exit
+source -s abc.rc
+read_aiger i2c.aig
+refactor -z
+balance
+refactor -z
+balance
+rewrite
+rewrite -z
+resub
+resub
+rewrite
+resub -z
+refactor -z
+rewrite
+resub -z
+refactor
+refactor -z
+resub -z
+balance
+refactor -z
+resub
+balance
+print_stats -p
+source -s abc.rc
+read_aiger i2c.aig
+print_stats
+read_lib nangate45.lib
+map
+ps -p
+read_lib ./nangate45.lib
+print_lib
+read nangate45.lib 
+refactor -z
+balance
+refactor -z
+balance
+rewrite
+rewrite -z
+resub
+resub
+rewrite
+resub -z
+refactor -z
+rewrite
+resub -z
+refactor
+refactor -z
+resub -z
+balance
+refactor -z
+resub
+balance
+print_stats -p
+source -s abc.rc
+read i2c.aig 
+read nangate45.lib 
+read_lib nangate45.lib
+source script0.txt 
+map 
+resyn

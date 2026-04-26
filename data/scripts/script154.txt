@@ -1,0 +1,20 @@
+balance
+resub
+resub -z
+rewrite
+rewrite
+resub -z
+refactor -z
+balance
+balance
+balance
+resub -z
+rewrite -z
+balance
+resub -z
+refactor
+balance
+rewrite -z
+refactor
+resub -z
+resub

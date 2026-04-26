@@ -1,0 +1,5 @@
+length,method,recipe,pred_power,true_power
+20,oracle,refactor -z;resub -z;rewrite;rewrite -z;rewrite;rewrite -z;rewrite;balance;refactor;refactor;refactor -z;rewrite;resub;rewrite -z;rewrite;resub;refactor -z;refactor -z;resub -z;resub -z,,376.1900
+20,DDDQN+SA,refactor;rewrite -z;rewrite -z;rewrite -z;rewrite -z;rewrite;refactor -z;rewrite -z;rewrite -z;refactor -z;resub -z;resub;rewrite -z;rewrite -z;refactor -z;resub;balance;rewrite;rewrite -z;resub -z,386.1321,383.4100
+20,resyn,,,394.0100
+20,resyn2,,,396.2300
